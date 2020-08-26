@@ -1,0 +1,21 @@
+﻿Personalregister
+
+Vilka klasser bör ingå i programmet och vilka attribut och metoder bör ingå i dessa?
+
+Employee (anställd)
+  Attribut
+	Name - Den anställdes namn
+	Salary - Den anställdes lön
+  Metoder - inga egentliga
+
+Staff (personalstyrka)
+  Attribut 
+    staff - Samlingsklass med Employee-objekt
+  Metoder
+	AddOrUpdateEmployee - Lägger till en anställd, eller uppdaterar lönen om den anställde redan finns i listan
+	NameExists - Returnerar eventuell anställd som redan finns i listan (samma namn - oavsett versaler eller gemener)
+	DisplayStaff - Listar alla anställda
+
+Program 
+  Metoder
+	Main - Huvudslinga som visar listan och tar emot inmatningar från användaren
